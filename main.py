@@ -103,7 +103,7 @@ if not submitted:
     with st.expander("2. Results"):
         st.write("""       
                 - Summary Table: Displayed when a Topic/Keyword is specified. With core targets, evidence levels, key findings, etc.
-                - Word Cloud: Displayed when NO Topic/Keyword is specified. Extract & visualising of keywords from the latetest papers.
+                - Word Cloud: Displayed when NO Topic/Keyword is specified. Extract & visualising of keywords from the latetest genomic papers. (Currently limited to Genomics)
                 """)
 
 if submitted:
@@ -229,7 +229,7 @@ if submitted:
                         id_list = record["IdList"]
 
                     if not id_list:
-                        st.warning("No papers found for the selected genomic criteria. Try adjusting the year range!")
+                        st.warning("No papers found for the selected criteria. Try adjusting the year range!")
                     else:
                         handle = Entrez.efetch(db="pubmed", id=id_list, rettype="abstract", retmode="xml")
                         records = Entrez.read(handle)
@@ -380,5 +380,5 @@ if submitted:
                         mime="text/markdown"
                     )
                     with st.expander("See original paper links"):
-                        for i, id in enumerate(id_list, start=1):
-                            st.markdown(f"{i}. [PubMed {id}](https://pubmed.ncbi.nlm.nih.gov/{id}/)")
+                        for i, (id, title) in enumerate(zip(id_list, titles), start=1):
+                            st.markdown(f"{i}. [{title}](https://pubmed.ncbi.nlm.nih.gov/{id}/)")
