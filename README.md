@@ -1,4 +1,4 @@
-# $\text{🧬 SUMMED.ai (Scientific Literature Summary and Trend Dashboard)}$
+# $\text{SUMMED.ai (Scientific Literature Summary and Trend Dashboard)}$
 
 > **AI-Powered Text Mining & Trend Analysis Platform**
 > 
