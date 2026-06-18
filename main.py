@@ -15,7 +15,7 @@ custom_stopwords = STOPWORDS.update({
 })
 chormosome_mask = np.array(Image.open("chromosome_for_masking.png"))
 logo = Image.open("summed.png")
-today = datetime.today()
+today = datetime.today().strftime("%Y-%m-%d")
 
 st.set_page_config(
     page_title = "SUMMED.ai",
