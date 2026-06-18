@@ -22,7 +22,6 @@ st.set_page_config(
     page_icon = logo,
     initial_sidebar_state= None,
     menu_items={
-        "Get Help" : "https://github.com/jyoonsong48",
         "Report a bug" : "https://mail.google.com/mail/?view=cm&to=jyoon.song48@gmail.com&su=%5BBug%20Report%5D&body=%5BPlease%20describe%20a%20bug%20or%20copy%26paste%20error%20message%20here.%5D",
         "About" : """A super cool tool to summarise papers and see research trends! 
         ( •̀ ω •́ )✧"""}
