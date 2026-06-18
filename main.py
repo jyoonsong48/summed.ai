@@ -6,10 +6,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
 from datetime import datetime
-from dotenv import load_dotenv
-import os
 
-load_dotenv()
 Entrez.email = st.secrets["NCBI_EMAIL"]
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 custom_stopwords = STOPWORDS.update({
