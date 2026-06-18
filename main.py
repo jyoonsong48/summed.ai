@@ -23,7 +23,9 @@ st.set_page_config(
     initial_sidebar_state= None,
     menu_items={
         "Report a bug" : "https://mail.google.com/mail/?view=cm&to=jyoon.song48@gmail.com&su=%5BBug%20Report%5D&body=%5BPlease%20describe%20a%20bug%20or%20copy%26paste%20error%20message%20here.%5D",
-        "About" : "https://github.com/jyoonsong48/summed.ai/blob/main/README.md"}
+        "About" : """A super cool tool to summarise papers and see research trends! 
+        ( •̀ ω •́ )✧ 
+        Further Info here: https://github.com/jyoonsong48/summed.ai/blob/main/README.md"""}
 )
 
 st.title("🔬 PubMed Trend Charts & Summrisation Tool")
