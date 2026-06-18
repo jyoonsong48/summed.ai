@@ -1,8 +1,8 @@
 # $\text{🧬 SUMMED.ai (Scientific Literature Summary and Trend Dashboard)}$
 
-> **AI-Powered Biomedical Text Mining & Genomic Trend Analysis Platform**
+> **AI-Powered Text Mining & Trend Analysis Platform**
 > 
-> SUMMED is an intelligent dashboard designed to analyze and visualize real-time trends in the latest genomics and biomedical literature based on massive datasets from PubMed. By integrating Large Language Models (LLMs), the platform precisely summarizes complex abstracts and classifies clinical evidence levels, serving as a researcher-centric informatics tool.
+> SUMMED is an intelligent dashboard designed to analyse and visualise real-time trends in the latest scientific literature based on massive datasets from PubMed. By integrating Large Language Models (LLMs), the platform precisely summarises complex abstracts and classifies clinical evidence levels, serving as a researcher-centric informatics tool.
 
 ---
 
