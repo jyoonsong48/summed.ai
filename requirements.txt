@@ -1,0 +1,8 @@
+Bio
+streamlit
+groq
+wordcloud
+matplotlib.pyplot
+PIL
+numpy
+datetime
