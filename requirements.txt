@@ -2,7 +2,7 @@ Bio
 streamlit
 groq
 wordcloud
-matplotlib.pyplot
+matplotlib
 PIL
 numpy
 datetime
