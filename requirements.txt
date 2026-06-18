@@ -1,8 +1,7 @@
-Bio
 streamlit
 groq
 wordcloud
 matplotlib
-PIL
+Pillow
 numpy
-datetime
+biopython
