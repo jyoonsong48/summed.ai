@@ -380,5 +380,5 @@ if submitted:
                         mime="text/markdown"
                     )
                     with st.expander("See original paper links"):
-                        for id in id_list:
-                            st.write(f"https://pubmed.ncbi.nlm.nih.gov/{id}/")
+                        for i, id in enumerate(id_list, start=1):
+                            st.markdown(f"{i}. [PubMed {id}](https://pubmed.ncbi.nlm.nih.gov/{id}/)")
