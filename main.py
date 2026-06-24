@@ -30,7 +30,7 @@ st.set_page_config(
         """}
 )
 
-st.title("🔬 PubMed Trend Charts & Summrisation Tool")
+st.title("🔬 PubMed Trend Charts & Summarisation Tool")
 st.write("Search or Set publication year range")
 
 st.markdown("""
