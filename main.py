@@ -248,7 +248,7 @@ if submitted:
 
                         for_cloud = "".join(abs)
                         for_reading = client.chat.completions.create(
-                            model="meta-llama/llama-4-scout-17b-16e-instruct",
+                            model="openai/gpt-oss-120b",
                             temperature= 0.1,
                             messages=[
                                 {"role": "system", "content": """You are an expert biomedical text miner and bioinformatician. Your task is to extract highly relevant biological, clinical, and methodological keywords from the provided abstracts for a genomic trend analysis.
@@ -336,7 +336,7 @@ if submitted:
 
                 if show_chart == False:
                     result = client.chat.completions.create(
-                        model="meta-llama/llama-4-scout-17b-16e-instruct",
+                        model="openai/gpt-oss-120b",
                         temperature= 0.1,
                         messages=[
                             {"role": "system", "content": """You are a world-class bioinformatics expert. 
